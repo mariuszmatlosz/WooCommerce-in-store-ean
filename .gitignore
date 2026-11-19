@@ -35,6 +35,20 @@ wp-config.php
 # htaccess
 /.htaccess
 
+# Tooling
+/node_modules/
+/vendor/
+/build/
+.phpunit.cache/
+.phpunit.result.cache
+tests/wp-tests-config.php
+/playwright-report/
+/tests/e2e/.auth/
+/test-results/
+/blob-report/
+*.map
+.DS_Store
+
 # All plugins
 #
 # Note: If you wish to whitelist plugins,

@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EAN to PoS 0.3.1\n"
+"PO-Revision-Date: 2026-11-19 00:00+0100\n"
+"Last-Translator: EAN to PoS contributors\n"
+"Language-Team: EAN to PoS contributors\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-register.php:56
+#, php-format
+msgid "%s is out of stock or has no price."
+msgstr "El producto %s está agotado o no tiene precio."
+
+#: includes/class-admin.php:320
+msgid "Add sale"
+msgstr "Añadir venta"
+
+#: includes/class-settings.php:54
+msgid "Address line 2"
+msgstr "Segunda línea de dirección"
+
+#: includes/class-admin.php:183
+msgid "All operations"
+msgstr "Todas las operaciones"
+
+#: includes/class-documents.php:188
+msgid "Another sale is saving a document number. Review the sale again in a moment."
+msgstr "Otra venta está guardando un número de documento. Vuelve a revisar la venta en un momento."
+
+#: includes/class-admin.php:72
+msgid "Bank transfer"
+msgstr "Transferencia bancaria"
+
+#: includes/class-admin.php:71
+msgid "Card"
+msgstr "Tarjeta"
+
+#: includes/class-admin.php:70
+msgid "Cash"
+msgstr "Efectivo"
+
+#: includes/class-admin.php:293
+msgid "Choose a valid payment method and document type."
+msgstr "Elige un método de pago y un tipo de documento válidos."
+
+#: includes/class-settings.php:55
+msgid "City"
+msgstr "Localidad"
+
+#: includes/class-admin.php:212
+msgid "Complete the billing address in WooCommerce or in PoS settings before recording sales."
+msgstr "Completa la dirección de facturación en WooCommerce o en los ajustes del TPV antes de registrar ventas."
+
+#: includes/class-settings.php:94
+msgid "Complete the custom billing address before enabling it."
+msgstr "Completa la dirección de facturación personalizada antes de activarla."
+
+#: includes/class-admin.php:290
+msgid "Complete the store address before recording a sale."
+msgstr "Completa la dirección de la tienda antes de registrar una venta."
+
+#: includes/class-admin.php:206
+msgid "Complete your name and email in your WooCommerce billing profile."
+msgstr "Completa el nombre, los apellidos y el correo electrónico en tu perfil de facturación de WooCommerce."
+
+#: includes/class-admin.php:207
+msgid "Complete your profile"
+msgstr "Completar perfil"
+
+#: includes/class-admin.php:431
+msgid "Confirm stock movement"
+msgstr "Confirmar movimiento de existencias"
+
+#: includes/class-admin.php:364
+msgid "Could not get the next number. Try again."
+msgstr "No se pudo obtener el siguiente número. Inténtalo de nuevo."
+
+#: includes/class-settings.php:141
+msgid "Country / Region"
+msgstr "País / región"
+
+#: includes/class-admin.php:398
+msgid "Current stock"
+msgstr "Existencias actuales"
+
+#: includes/class-settings.php:151
+msgid "Default document"
+msgstr "Documento predeterminado"
+
+#: includes/class-admin.php:88 includes/class-admin.php:362
+msgid "Document number"
+msgstr "Número de documento"
+
+#: includes/class-settings.php:146
+msgid "Document numbering"
+msgstr "Numeración de documentos"
+
+#: includes/class-admin.php:87 includes/class-admin.php:360
+msgid "Document type"
+msgstr "Tipo de documento"
+
+#: includes/class-settings.php:44
+msgid "EAN to PoS Settings"
+msgstr "Ajustes de EAN to PoS"
+
+#: includes/class-admin.php:439
+msgid "Edit scans"
+msgstr "Editar códigos escaneados"
+
+#: includes/class-documents.php:74
+#, php-format
+msgid "Enter a positive sequence number or a full reference matching %s."
+msgstr "Introduce un número de secuencia positivo o una referencia completa con el formato %s."
+
+#: includes/class-settings.php:63
+msgid "Every month"
+msgstr "Cada mes"
+
+#: includes/class-settings.php:64
+msgid "Every year"
+msgstr "Cada año"
+
+#: includes/class-settings.php:188
+msgid "First suggested sequence number"
+msgstr "Primer número de secuencia sugerido"
+
+#: includes/class-settings.php:165
+msgid "For example, use S3/{number}/{month}/{year} with a minimum of 3 digits to get S3/007/11/2026. Use {number} with a minimum of 1 digit to get 7."
+msgstr "Por ejemplo, usa S3/{number}/{month}/{year} con un mínimo de 3 dígitos para obtener S3/007/11/2026. Usa {number} con un mínimo de 1 dígito para obtener 7."
+
+#: includes/class-settings.php:182
+msgid "Format"
+msgstr "Formato"
+
+#: includes/class-settings.php:158
+msgid "How to write a format"
+msgstr "Cómo definir un formato"
+
+#: includes/class-register.php:72
+#, php-format
+msgid "Insufficient stock for %s."
+msgstr "Existencias insuficientes de %s."
+
+#: includes/class-admin.php:392
+msgid "Insufficient stock. You can confirm this movement with the negative quantities shown below."
+msgstr "Existencias insuficientes. Puedes confirmar este movimiento con las cantidades negativas indicadas abajo."
+
+#: includes/class-admin.php:254
+msgid "Invalid confirmation. Review the scans again."
+msgstr "Confirmación no válida. Vuelve a revisar los códigos escaneados."
+
+#: includes/class-documents.php:31 includes/class-settings.php:154
+msgid "Invoice"
+msgstr "Factura"
+
+#: includes/class-settings.php:170
+msgid "Invoice numbering"
+msgstr "Numeración de facturas"
+
+#: includes/class-admin.php:322
+msgid "Issue stock"
+msgstr "Salida de existencias"
+
+#: includes/class-settings.php:185
+msgid "Minimum sequence digits"
+msgstr "Número mínimo de dígitos"
+
+#: includes/class-settings.php:166
+msgid "Monthly formats need a month and year. Yearly formats need a year. Use separators such as / or - between numeric placeholders."
+msgstr "Los formatos mensuales requieren mes y año. Los anuales requieren el año. Separa los marcadores numéricos con caracteres como / o -."
+
+#: includes/class-settings.php:62
+msgid "Never"
+msgstr "Nunca"
+
+#: includes/class-register.php:36
+#, php-format
+msgid "No active simple product or variation matches %s."
+msgstr "Ningún producto simple activo ni variación coincide con %s."
+
+#: includes/class-admin.php:62
+msgid "No higher number is available in this series."
+msgstr "No hay ningún número superior disponible en esta serie."
+
+#: includes/class-admin.php:416
+msgid "No price"
+msgstr "Sin precio"
+
+#: includes/class-documents.php:32
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/class-admin.php:214
+msgid "Open WooCommerce settings"
+msgstr "Abrir los ajustes de WooCommerce"
+
+#: includes/class-admin.php:192
+#, php-format
+msgid "Open order #%s"
+msgstr "Abrir pedido n.º %s"
+
+#: includes/class-admin.php:73
+msgid "Other"
+msgstr "Otro"
+
+#: includes/class-admin.php:354
+msgid "Payment received"
+msgstr "Pago recibido"
+
+#: includes/class-settings.php:131
+msgid "PoS billing address"
+msgstr "Dirección de facturación del TPV"
+
+#: includes/class-admin.php:86
+msgid "PoS employee"
+msgstr "Empleado del TPV"
+
+#: includes/class-admin.php:39
+msgid "PoS navigation"
+msgstr "Navegación del TPV"
+
+#: includes/class-settings.php:56
+msgid "Postcode"
+msgstr "Código postal"
+
+#: includes/class-admin.php:402
+msgid "Price per unit"
+msgstr "Precio unitario"
+
+#: includes/class-admin.php:396
+msgid "Product"
+msgstr "Producto"
+
+#: includes/class-admin.php:272
+msgid "Products, prices or PoS settings changed. Review the sale again."
+msgstr "Han cambiado los productos, los precios o los ajustes del TPV. Vuelve a revisar la venta."
+
+#: includes/class-admin.php:397
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/class-register.php:62
+#, php-format
+msgid "Quantity tracking and permission to edit stock are required for %s."
+msgstr "Se requiere seguimiento de existencias y permiso para editar las de %s."
+
+#: includes/class-documents.php:30 includes/class-settings.php:153
+msgid "Receipt"
+msgstr "Tique"
+
+#: includes/class-settings.php:169
+msgid "Receipt numbering"
+msgstr "Numeración de tiques"
+
+#: includes/class-admin.php:431
+msgid "Record paid sale"
+msgstr "Registrar venta pagada"
+
+#: includes/class-admin.php:21 includes/class-admin.php:40
+msgid "Register"
+msgstr "Caja"
+
+#: includes/class-settings.php:191
+msgid "Reset sequence"
+msgstr "Reiniciar secuencia"
+
+#: includes/class-admin.php:321
+msgid "Return / Receive stock"
+msgstr "Devolución / entrada de existencias"
+
+#: includes/class-admin.php:372
+msgid "Review scans"
+msgstr "Revisar códigos escaneados"
+
+#: includes/class-admin.php:352
+msgid "Sale details"
+msgstr "Datos de la venta"
+
+#: includes/class-admin.php:141
+msgid "Sale recorded."
+msgstr "Venta registrada."
+
+#: includes/class-admin.php:346
+msgid "Scan EANs or SKUs"
+msgstr "Escanea códigos EAN o SKU"
+
+#: includes/class-register.php:19
+msgid "Scan between 1 and 500 codes."
+msgstr "Escanea entre 1 y 500 códigos."
+
+#: includes/class-admin.php:348
+msgid "Scan one code per line. Each repeat adds one unit."
+msgstr "Escanea un código por línea. Cada repetición añade una unidad."
+
+#: includes/class-admin.php:42 includes/class-settings.php:44
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class-admin.php:89
+msgid "Shipment reference"
+msgstr "Referencia del envío"
+
+#: includes/class-admin.php:367
+msgid "Shipment reference (optional)"
+msgstr "Referencia del envío (opcional)"
+
+#: includes/class-settings.php:149
+msgid "Show invoices in the register"
+msgstr "Mostrar facturas en la caja"
+
+#: includes/class-admin.php:400
+msgid "Stock after movement"
+msgstr "Existencias tras el movimiento"
+
+#: includes/class-register.php:260
+#, php-format
+msgid "Stock update interrupted. %d stock records were confirmed. Check current quantities before trying again."
+msgstr "Se interrumpió la actualización de existencias. Registros confirmados: %d. Comprueba las cantidades actuales antes de volver a intentarlo."
+
+#: includes/class-admin.php:143
+msgid "Stock updated."
+msgstr "Existencias actualizadas."
+
+#: includes/class-settings.php:53
+msgid "Street address"
+msgstr "Calle y número"
+
+#: includes/class-documents.php:195
+msgid "The document format changed. Review the sale again."
+msgstr "Ha cambiado el formato del documento. Vuelve a revisar la venta."
+
+#: includes/class-admin.php:202
+msgid "The movement was saved. Some stock quantities are now below zero."
+msgstr "Se guardó el movimiento. Algunas cantidades de existencias están por debajo de cero."
+
+#: includes/class-admin.php:174
+msgid "The operation could not be confirmed. Check recent orders or stock before trying again."
+msgstr "No se pudo confirmar la operación. Revisa los pedidos recientes o las existencias antes de volver a intentarlo."
+
+#: includes/class-admin.php:301
+msgid "The scan list is too long."
+msgstr "La lista de códigos escaneados es demasiado larga."
+
+#: includes/class-admin.php:297
+msgid "The shipment reference must fit within 200 bytes."
+msgstr "La referencia del envío debe ocupar como máximo 200 bytes."
+
+#: includes/class-admin.php:259 includes/class-admin.php:265
+msgid "This confirmation has expired or was already submitted."
+msgstr "Esta confirmación ha caducado o ya se ha enviado."
+
+#: includes/class-documents.php:203
+#, php-format
+msgid "This number must be higher than %s in the selected series. Choose the next available number and review the sale again."
+msgstr "El número debe ser superior a %s en la serie seleccionada. Elige el siguiente número disponible y vuelve a revisar la venta."
+
+#: includes/class-admin.php:426
+msgid "Total"
+msgstr "Total"
+
+#: includes/class-admin.php:364
+msgid "Use next number"
+msgstr "Usar el siguiente número"
+
+#: includes/class-settings.php:134
+msgid "Use this address on PoS orders instead of the WooCommerce store address"
+msgstr "Usar esta dirección en los pedidos del TPV en lugar de la dirección de la tienda de WooCommerce"
+
+#: includes/class-settings.php:104
+msgid "Use {number} once and at most one placeholder for each date component. Use separators between variable-width placeholders. Include a year for yearly numbering and both month and year for monthly numbering."
+msgstr "Usa {number} una sola vez y como máximo un marcador para cada parte de la fecha. Separa los marcadores de longitud variable. Incluye el año para la numeración anual y el mes y el año para la mensual."
+
+#: includes/class-admin.php:100
+msgid "You cannot access EAN to PoS."
+msgstr "No tienes acceso a EAN to PoS."
+
+#: includes/class-settings.php:119
+msgid "You cannot manage EAN to PoS settings."
+msgstr "No tienes permiso para gestionar los ajustes de EAN to PoS."
+
+#: includes/class-admin.php:286
+msgid "You cannot perform that operation."
+msgstr "No tienes permiso para realizar esta operación."
+
+#: includes/class-settings.php:160
+msgid "goes in the format once. Set the minimum digits to 3 to display 7 as 007."
+msgstr "se usa una vez en el formato. Fija un mínimo de 3 dígitos para mostrar 7 como 007."
+
+#: includes/class-settings.php:162
+msgid "show a four-digit year such as 2026."
+msgstr "muestran el año con cuatro dígitos, por ejemplo 2026."
+
+#: includes/class-settings.php:162
+msgid "show a two-digit year such as 26."
+msgstr "muestran el año con dos dígitos, por ejemplo 26."
+
+#: includes/class-settings.php:161
+msgid "show the month as 01–12."
+msgstr "muestran el mes del 01 al 12."
+
+#: includes/class-settings.php:161
+msgid "shows it as 1–12."
+msgstr "lo muestra del 1 al 12."
+
+#: includes/class-settings.php:163
+msgid "shows it as 1–31."
+msgstr "lo muestra del 1 al 31."
+
+#: includes/class-settings.php:163
+msgid "shows the day as 01–31."
+msgstr "muestra el día del 01 al 31."
+
+#: ean-to-pos.php:4
+msgid "Scan EANs or SKUs to record in-store WooCommerce sales and stock movements from WordPress Admin."
+msgstr "Escanea códigos EAN o SKU para registrar ventas en tienda y movimientos de existencias de WooCommerce desde la administración de WordPress."
+
+#: includes/class-admin.php
+msgid "Could not reset the document number. Try again."
+msgstr "No se pudo restablecer el número de documento. Inténtalo de nuevo."
+
+#: includes/class-admin.php
+msgid "Reset"
+msgstr "Restablecer"
+
+#: includes/class-admin.php
+msgid "No stock was updated."
+msgstr "No se actualizaron las existencias."
+
+#: includes/class-admin.php
+msgid "These codes were skipped. Create or open a product draft to add them to the catalog."
+msgstr "Se omitieron estos códigos. Crea o abre un borrador de producto para añadirlos al catálogo."
+
+#: includes/class-admin.php
+msgid "These codes have no active product and will be skipped."
+msgstr "Estos códigos no tienen un producto activo y se omitirán."
+
+#: includes/class-admin.php
+msgid "Create or open product draft"
+msgstr "Crear o abrir borrador de producto"
+
+#: includes/class-admin.php
+msgid "You cannot create this product draft."
+msgstr "No puedes crear este borrador de producto."
+
+#: includes/class-admin.php
+msgid "This product draft is already being created. Try again in a moment."
+msgstr "Este borrador de producto ya se está creando. Inténtalo de nuevo en un momento."
+
+#: includes/class-admin.php
+msgid "Could not open the product draft."
+msgstr "No se pudo abrir el borrador de producto."

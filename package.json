@@ -1,0 +1,48 @@
+{
+  "name": "ean-to-pos",
+  "version": "0.3.1",
+  "private": true,
+  "packageManager": "pnpm@10.6.5",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "pnpm run watch",
+    "watch": "10up-toolkit watch --hot",
+    "build": "10up-toolkit build && bash bin/package-plugin.sh",
+    "format-js": "10up-toolkit format-js assets/js tests/js",
+    "lint-js": "10up-toolkit lint-js assets/js tests/js",
+    "lint-style": "10up-toolkit lint-style assets/css",
+    "lint-php": "composer lint",
+    "lint": "pnpm run lint-js && pnpm run lint-style && pnpm run lint-php",
+    "test": "pnpm run test:js && composer test:unit",
+    "test:js": "10up-toolkit test-unit-jest",
+    "test:unit": "composer test:unit",
+    "test:integration": "composer test:integration",
+    "test:e2e": "playwright test --config playwright.config.mjs",
+    "wp-env": "wp-env",
+    "plugin-check": "bash bin/plugin-check.sh",
+    "clean-dist": "rm -rf ./dist"
+  },
+  "devDependencies": {
+    "@10up/eslint-config": "^5.0.0",
+    "@10up/stylelint-config": "^4.0.0",
+    "@playwright/test": "^1.58.2",
+    "@wordpress/e2e-test-utils-playwright": "^1.41.0",
+    "@wordpress/env": "^10.39.0",
+    "10up-toolkit": "^7.0.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint-scss": "^5.3.2",
+    "terser-webpack-plugin": "^5.6.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "core-js",
+      "core-js-pure",
+      "esbuild",
+      "fs-ext-extra-prebuilt"
+    ]
+  }
+}
