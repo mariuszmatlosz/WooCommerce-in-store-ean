@@ -13,7 +13,7 @@ fi
 rm -rf "$dest"
 mkdir -p "$dest/dist/js" "$dest/dist/css"
 
-cp "$root/ean-to-pos.php" "$root/readme.txt" "$root/LICENSE" "$dest/"
+cp "$root/ean-to-pos.php" "$root/readme.md" "$root/LICENSE" "$dest/"
 cp -R "$root/includes" "$dest/includes"
 cp -R "$root/languages" "$dest/languages"
 cp "$root/dist/js/admin.js" "$root/dist/js/admin.asset.php" "$dest/dist/js/"

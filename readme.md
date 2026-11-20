@@ -1,4 +1,5 @@
-=== EAN to PoS ===
+# EAN to PoS
+
 Contributors: virgin71
 Tags: woocommerce, point of sale, barcode, ean, inventory
 Requires at least: 6.5
@@ -10,7 +11,7 @@ License URI: https://opensource.org/license/mit
 
 Scan barcodes to record in-store WooCommerce sales and update stock from WordPress Admin.
 
-== Description ==
+## Description
 
 Developed by Mariusz Matłosz (virgin71).
 
@@ -25,7 +26,7 @@ EAN to PoS lets store staff scan product barcodes or SKUs directly into a regist
 
 The register records payments already received outside the plugin. It does not process payments or issue fiscal receipts or invoices.
 
-== Installation ==
+## Installation
 
 1. Install and activate WooCommerce.
 2. Install and activate EAN to PoS.
@@ -33,21 +34,21 @@ The register records payments already received outside the plugin. It does not p
 4. Open EAN to PoS in the WordPress sidebar, choose an operation and focus the scan field. Use a scanner configured as a keyboard with Enter after each code, or paste a list of codes.
 5. Review the scans, then confirm the sale or stock movement.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= Who can use the register? =
+### Who can use the register?
 
 Users who can edit WooCommerce orders can record sales. Stock movements also require permission to edit the affected products.
 
-= What happens if the employee profile is incomplete? =
+### What happens if the employee profile is incomplete?
 
 The register prompts the employee to complete their profile. Missing names remain blank. A complete billing address from WooCommerce or the PoS settings is required for sales.
 
-= Who receives order emails? =
+### Who receives order emails?
 
 The order is linked to the employee's account. Any enabled WooCommerce customer notifications for that order use the employee's billing email.
 
-= How do document numbers work? =
+### How do document numbers work?
 
 The register starts with Receipt selected. Receipts use a continuous sequence, and invoices default to S3/001/MM/YYYY, with a new sequence each month. Dates use the WordPress site timezone.
 
@@ -55,21 +56,25 @@ Under EAN to PoS > Settings, you can hide invoices, change the default document,
 
 The number is editable. Enter a sequence or the complete reference. Reset restores the configured starting number, while Use next number increments the number in the field. A number must be higher than the last one recorded in the same series and period. To continue an existing external series, set the first suggestion to the next number or enter that number when recording the first sale. Counters advance on confirmation. References remain on their WooCommerce orders if the settings change.
 
-== Changelog ==
+## Changelog
 
-= 0.3.1 =
+### 0.3.1
+
 * Separated resetting the document number from incrementing it.
 
-= 0.3.0 =
+### 0.3.0
+
 * Added a top-level menu with separate sale and stock workflows.
 * Added WooCommerce profile fallbacks and live document number suggestions.
 * Added unit prices and warnings for negative inventory on stock movements.
 * Included Polish, Czech and Spanish translations.
 
-= 0.2.0 =
+### 0.2.0
+
 * Added editable number suggestions and configurable receipt and invoice series.
 * Added the default document and invoice visibility settings.
 * Added an optional billing address for PoS orders.
 
-= 0.1.0 =
+### 0.1.0
+
 * Initial release.
